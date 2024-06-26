@@ -24,3 +24,27 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* SOLUTION CODE */
+
+.flex-main {
+  display: flex;
+  justify-content: space-around;
+  gap: 52px;
+  margin: auto 52px ;
+}
+
+.sub-flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 200px;
+}
+
+.title {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+}
+
